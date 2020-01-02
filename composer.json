@@ -10,7 +10,8 @@
     ],
     "require": {
         "illuminate/support": "^6.0",
-        "illuminate/routing": "^6.0"
+        "illuminate/routing": "^6.0",
+        "rmoore/routable": "^0.1.1"
     },
     "require-dev": {
         "illuminate/events": "^6.0",
