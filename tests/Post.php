@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\RMoore\Routable;
+namespace Tests;
 
 use Illuminate\Database\Eloquent\Model;
 use RMoore\Routable\Routable;

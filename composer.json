@@ -1,6 +1,6 @@
 {
-    "name": "rmoore/routable",
-    "description": "Generate routes for laravel models",
+    "name": "rmoore/resourceful",
+    "description": "Generic resource controller for laravel applications",
     "license": "MIT",
     "authors": [
         {
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "RMoore\\Routable\\": "src/"
+            "RMoore\\Resourcceful\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\RMoore\\Routable\\": "tests/"
+            "Tests\\": "tests/"
         },
         "classmap": [
             "tests/TestCase.php"
