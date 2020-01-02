@@ -1,12 +1,13 @@
 <?php
 
 namespace Tests;
+
 use Illuminate\Container\Container;
+use Illuminate\Database\Capsule\Manager as DB;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Router;
 use Illuminate\Routing\UrlGenerator;
-use Illuminate\Database\Capsule\Manager as DB;
 
 abstract class TestCase extends \PHPUnit\Framework\TestCase
 {
