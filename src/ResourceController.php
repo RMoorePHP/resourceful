@@ -7,20 +7,21 @@ use Illuminate\Routing\Controller;
 
 class ResourceController extends Controller
 {
-    protected function modelClass(){
+    protected function modelClass()
+    {
         $matches = [];
-        if(preg_match("/(\w+)Controller$/", get_class($this), $matches)){
-            return sprintf("App\\%s", $matches[1]);
+        if (preg_match("/(\w+)Controller$/", get_class($this), $matches)) {
+            return sprintf('App\\%s', $matches[1]);
         }
     }
 
-    protected function model(Request $request){
+    protected function model(Request $request)
+    {
         $class = $this->modelClass();
 
-        if(!$class)
-            return null;
-
-
+        if (! $class) {
+            return;
+        }
     }
 
     /**
